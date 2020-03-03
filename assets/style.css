@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(60, 0, 15);
+}
+
+/*nav*/
+.navbar-brand img {
+    width: 30px;
+}
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: white;
+}
+
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rosybrown;
+    font-family: 'La Belle Aurore';
+    ;
+}
+
+/* Set the toggler border color */
+.custom-toggler.navbar-toggler {
+    border-color: rosybrown;
+}
+
+/* Setting the toggler stroke to green using rgb values (188, 143, 143) aka rosy brown */
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(188, 143, 143, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* Set the toggler dropdown items color */
+.dropdown-item {
+    color: rosybrown;
+    font-family: 'La Belle Aurore';
+}
+
+/*hero*/
+.hero {
+    text-align: center;
+    color: rosybrown;
+}
+
+.hero .display-4 {
+    font-family: 'La Belle Aurore';
+}
+
+.hero .lead {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-color: rgba(183, 110, 121, .50);
+}
+
+/*reviews carousel*/
+#services {
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(183, 110, 121, .50);
+}
+
+#services h1 {
+    color: rosybrown;
+    max-width: 850px;
+    margin: 10px auto;
+    font-family: 'La Belle Aurore';
+}
+
+#services p {
+    color: rosybrown;
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+#services h4 {
+    color: rosybrown;
+    background-color: rgb(255, 255, 255);
+    max-width: 850px;
+    margin: 10px auto;
+}
+
+/*footer*/
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    color: rosybrown;
+}
